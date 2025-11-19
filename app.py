@@ -17,7 +17,7 @@ model_id = st.sidebar.selectbox(
     ]
 )
 
-kb_id = st.sidebar.text_input("Knowledge Base ID", "your-knowledge-base-id")
+kb_id = st.sidebar.text_input("Knowledge Base ID", "IATP9RJUQJ")
 temperature = st.sidebar.select_slider("Temperature", [i / 10 for i in range(0, 11)], 1)
 top_p = st.sidebar.select_slider("Top_P", [i / 1000 for i in range(0, 1001)], 1)
 
